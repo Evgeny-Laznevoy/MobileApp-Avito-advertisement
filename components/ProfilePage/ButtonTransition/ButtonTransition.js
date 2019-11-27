@@ -1,9 +1,10 @@
 import React from 'react';
 import { StyleSheet, TextInput, TouchableOpacity } from 'react-native';
+import Login from '../../Login/Login'
 
 const ButtonTrans = () => {
     return (
-        <TouchableOpacity onPress={() => alert("тут будет переход на др. страницу")}>
+        <TouchableOpacity onPress={() =>  alert("323232332")}>
             <TextInput
                 style={styles.textInput}
                 editable={false}
